@@ -36,7 +36,7 @@
 ---
 
 ## 📞 Contact & Enrollment:
-📧 **Email:** [vrtechbymn@gmail.com])  
+📧 **Email:** [vrtechbymn@gmail.com](mailto:vrtechbymn@gmail.com)  
 📱 **WhatsApp:** [📩 Click Here to Chat](https://wa.me/9700462287)  
 
 
