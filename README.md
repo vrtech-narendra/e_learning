@@ -36,8 +36,8 @@
 ---
 
 ## 📞 Contact & Enrollment:
-📧 **Email:** [# 📩 Contact Us](mailto:vrtechbymn@gmail.com)  
-📱 **WhatsApp:** [📩 Click Here to Chat](https://wa.me/+919700462287)  
+📧 **Email:** [📩 Contact Us](mailto:vrtechbymn@gmail.com)  
+📱 **WhatsApp:** [![WhatsApp](https://img.shields.io/badge/📩%20Click%20Here%20to%20Chat-WhatsApp-brightgreen?style=for-the-badge&logo=whatsapp)](https://wa.me/919700462287)
 
 
 🚀 **Join us today and take your automation skills to the next level!** 🔥
