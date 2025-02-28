@@ -21,7 +21,7 @@
 
 ✅ **Data Processing & Querying**  
    - 📌 **JQ** – Command-line JSON Processing  
-   - 📌 **JMESPath** – AWS Data Querying & JSON Filtering  
+   - 📌 **JMESPath** – Any Cloud Data Querying & JSON Filtering  
    - 📌 **JSONPath** – Extracting & Filtering JSON Data  
 
 📅 **Flexible Learning Schedule** | 🎯 **Real-World Hands-on Projects** | 🎓 **Expert-Led Live Sessions**  
