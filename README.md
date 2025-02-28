@@ -1,6 +1,9 @@
 # 🚀 Online Classes for Server, Cloud & DevOps Automation
 ### **Master Automation with Scripting Languages & Tools**
 
+👨‍💻 **Instructor:** *Narendra from VRTech*  
+🔹 **I personally conduct all these courses to provide hands-on learning experiences with real-world automation use cases!** 
+
 🔹 **Learn to automate Servers, Cloud infrastructure and DevOps workflows using industry-standard tools and scripting languages.**  
 🔹 **Gain hands-on experience with real-world automation projects!**  
 
