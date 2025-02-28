@@ -40,7 +40,7 @@
 
 📱 **WhatsApp:** [+91-9700462287](https://wa.me/919700462287)
 
-📺 **Watch on YouTube:** [![YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@VRTechnologiesForAutomation)
+[![YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@VRTechnologiesForAutomation)
 
 
 
