@@ -54,19 +54,20 @@
         a:hover {
             color: #007BFF;
         }
-        .contact-info {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 10px;
+        .contact-table {
+            width: 100%;
+            max-width: 500px;
+            border-collapse: collapse;
+            margin-bottom: 20px;
         }
-        .contact-item {
-            display: flex;
-            justify-content: space-between;
-            width: 400px;
-            background: #e0e0e0;
+        .contact-table td {
             padding: 10px;
-            border-radius: 5px;
+            background: #e0e0e0;
+            font-weight: bold;
+            border: 1px solid #ddd;
+        }
+        .contact-table td a {
+            font-weight: normal;
         }
     </style>
 </head>
@@ -76,9 +77,20 @@
     </header>
     <main>
         <h2>Contact Details</h2>
-        <p><strong>WhatsApp:</strong> <a href="https://wa.me/+919700462287" target="_blank">Chat With Us</a></p>
-        <p><strong>Email:</strong> <a href="mailto:vrtechbymn@gmail.com">vrtechbymn@gmail.com</a></p>
-        <p><strong>YouTube:</strong> <a href="https://www.youtube.com/@VRTechnologiesForAutomation" target="_blank">Subscribe</a></p>
+        <table style="width: 100%; max-width: 500px; margin-bottom: 20px; border-collapse: collapse;">
+            <tr>
+                <td style="padding: 10px; background: #e0e0e0; font-weight: bold;">WhatsApp:</td>
+                <td style="padding: 10px; background: #e0e0e0;"><a href="https://wa.me/+919700462287" target="_blank">Chat With Us</a></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; background: #f0f0f0; font-weight: bold;">Email:</td>
+                <td style="padding: 10px; background: #f0f0f0;"><a href="mailto:vrtechbymn@gmail.com">vrtechbymn@gmail.com</a></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; background: #e0e0e0; font-weight: bold;">YouTube:</td>
+                <td style="padding: 10px; background: #e0e0e0;"><a href="https://www.youtube.com/@VRTechnologiesForAutomation" target="_blank">Subscribe</a></td>
+            </tr>
+        </table>
         
         <h2>Courses & Fees</h2>
         <ul>
