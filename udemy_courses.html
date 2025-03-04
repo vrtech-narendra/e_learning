@@ -18,6 +18,13 @@
             </a>
         </header>
 
+        <!-- Coupon Code Section -->
+        <div class="text-center mt-6 bg-yellow-100 p-4 rounded-lg shadow-md">
+            <p class="text-lg font-semibold text-gray-800">
+                🎟️ Use Coupon Code: <span id="couponText" class="text-red-600 font-bold"></span> to get discounts!
+            </p>
+        </div>
+
         <!-- Courses Grid -->
         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             
@@ -26,7 +33,7 @@
                 <img src="images/bash_shell_scripting.jpg" alt="Course 1" class="rounded-md">
                 <h2 class="text-xl font-semibold text-gray-800 mt-2">Learn Bash Shell Scripting For Automation</h2>
                 <p class="text-gray-600 mt-1">Shell Scripting for DevOps, Cloud, and Infrastructure Automation</p>
-                <a href="https://www.udemy.com/course/beginners-course-learn-bash-shell-scripting-for-automation/?couponCode=MAR_2025" target="_blank" class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-700">
+                <a id="course1" target="_blank" class="course-link mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-700">
                     🎓 Enroll Now
                 </a>
             </div>
@@ -36,7 +43,7 @@
                 <img src="images/ansible.jpg" alt="Course 2" class="rounded-md">
                 <h2 class="text-xl font-semibold text-gray-800 mt-2">Ansible & Ansible-Playbooks For Automation</h2>
                 <p class="text-gray-600 mt-1">Ansible Playbooks for IT Automation, DevOps & Cloud Ops</p>
-                <a href="https://www.udemy.com/course/ansible-playbooks-for-automation/?couponCode=MAR_2025" target="_blank" class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-700">
+                <a id="course2" target="_blank" class="course-link mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-700">
                     🎓 Enroll Now
                 </a>
             </div>
@@ -46,21 +53,21 @@
                 <img src="images/jq.jpg" alt="Course 3" class="rounded-md">
                 <h2 class="text-xl font-semibold text-gray-800 mt-2">Beginners Course: Jq Command Tutorials to Parse JSON Data</h2>
                 <p class="text-gray-600 mt-1">Learn JQ Command to Filter, Transform and Parse JSON Data</p>
-                <a href="https://www.udemy.com/course/jq-command-tutorials-to-parse-json-data/?couponCode=MAR_2025" target="_blank" class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-700">
+                <a id="course3" target="_blank" class="course-link mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-700">
                     🎓 Enroll Now
                 </a>
             </div>
+
             <!-- Course 4 -->
             <div class="bg-white p-4 rounded-lg shadow-md">
-                <img src="images/python.jpg" alt="Course 3" class="rounded-md">
+                <img src="images/python.jpg" alt="Course 4" class="rounded-md">
                 <h2 class="text-xl font-semibold text-gray-800 mt-2">Learn Basics of Python Scripting for Server Side Automation</h2>
-                <p class="text-gray-600 mt-1">tep-by-Step Guide to Server-Side Automation with Python</p>
-                <a href="https://www.udemy.com/course/python-scripting-for-automation/?couponCode=MAR_2025" target="_blank" class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-700">
+                <p class="text-gray-600 mt-1">Step-by-Step Guide to Server-Side Automation with Python</p>
+                <a id="course4" target="_blank" class="course-link mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-700">
                     🎓 Enroll Now
                 </a>
             </div>
-            <!-- Add More Courses as Needed -->
-            
+
         </section>
 
         <!-- Footer -->
@@ -69,5 +76,31 @@
         </footer>
 
     </div>
+
+    <!-- JavaScript for Setting Coupon Code -->
+    <script>
+        // Define the coupon code
+        const couponCode = "MAR_2025";
+
+        // Display the coupon code on the page
+        document.getElementById("couponText").textContent = couponCode;
+
+        // Course links dictionary
+        const courseLinks = {
+            "course1": "https://www.udemy.com/course/beginners-course-learn-bash-shell-scripting-for-automation/",
+            "course2": "https://www.udemy.com/course/ansible-playbooks-for-automation/",
+            "course3": "https://www.udemy.com/course/jq-command-tutorials-to-parse-json-data/",
+            "course4": "https://www.udemy.com/course/python-scripting-for-automation/"
+        };
+
+        // Apply the coupon code dynamically
+        document.querySelectorAll('.course-link').forEach(link => {
+            const courseId = link.id;
+            if (courseLinks[courseId]) {
+                link.href = `${courseLinks[courseId]}?couponCode=${couponCode}`;
+            }
+        });
+    </script>
+
 </body>
 </html>
