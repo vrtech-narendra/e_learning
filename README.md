@@ -5,7 +5,9 @@
 
 🔹 **Learn to automate Servers, Cloud infrastructure and DevOps workflows using industry-standard tools and scripting languages.**  
 🔹 **Gain hands-on experience with real-world automation projects!**  
-
+---
+> **📢 Our E-Learning Courses are: !**  
+> Join our Udemy courses for hands-on training in automation with real-world projects **[E-Learning](https://vrtech-narendra.github.io/e_learning/udemy_courses.html)**!  
 ---
 
 ## 📌 Course Offerings:
